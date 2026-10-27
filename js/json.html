@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+let contact={"nom":"Christoffel","prénom":"Eric","courriels":[{"courriel":"christof@unistra.fr","type":"pro"},{"courriel":"christof@gmail.com","type":"perso"}]};
+
+console.log(contact);
+console.log(contact.nom);
+console.log(contact.courriels[0].courriel);
+
+console.log(contact["nom"]);
+let laPropriete="prénom";
+console.log(contact[laPropriete]);
+
+let contactString=JSON.stringify(contact);
+console.log(typeof contactString,contactString);
+
+let contactJSON=JSON.parse(contactString);
+console.log(typeof contactJSON,contactJSON);
+
+</script>
+</head>
+<body>
+    
+</body>
+</html>

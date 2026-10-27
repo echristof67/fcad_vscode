@@ -1,0 +1,14 @@
+{
+  "nom": "Christoffel",
+  "prénom": "Eric",
+  "courriels": [
+    {
+      "courriel": "christof@unistra.fr",
+      "type": "pro"
+    },
+    {
+      "courriel": "christof@gmail.com",
+      "type": "perso"
+    }
+  ]
+}
